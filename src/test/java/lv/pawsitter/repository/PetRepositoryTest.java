@@ -75,7 +75,7 @@ class PetRepositoryTest {
         pet.setAge(2);
         pet.setDescription("Test pet");
         pet.setSpecialNeeds("None");
-        pet.setImageUrl("http://example.com/pet.jpg");
+        //pet.setImageUrl("http://example.com/pet.jpg");
         pet.setCreatedAt(LocalDateTime.now());
         return pet;
     }

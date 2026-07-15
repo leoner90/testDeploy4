@@ -60,7 +60,7 @@ public class PetServiceUnitTests {
         pet.setAge(4);
         pet.setDescription("Friendly cat who sleeps a lot");
         pet.setSpecialNeeds("");
-        pet.setImageUrl("example.com/image/link.jpg");
+        //pet.setImageUrl("example.com/image/link.jpg");
         pet.setCreatedAt(LocalDateTime.now());
 
         petRequestDto = new PetRequestDto();
