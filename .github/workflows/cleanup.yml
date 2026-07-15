@@ -3,6 +3,8 @@ name: Clean PawSitter Containers
 on:
   workflow_dispatch:
 
+# Manual container cleanup
+
 jobs:
   cleanup:
     runs-on: self-hosted
