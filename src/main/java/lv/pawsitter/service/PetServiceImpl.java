@@ -149,7 +149,7 @@ public class PetServiceImpl implements PetService{
         dto.setAge(pet.getAge());
         dto.setDescription(pet.getDescription());
         dto.setSpecialNeeds(pet.getSpecialNeeds());
-        dto.setImageUrl(pet.getImageUrl());
+        //dto.setImageUrl(pet.getImageUrl());
         dto.setCreatedAt(pet.getCreatedAt());
         return dto;
     }
